@@ -1,0 +1,137 @@
+body {
+  background-color: rgb(240, 248, 255);
+  margin: 0;
+}
+
+h1,
+h2 {
+  color: darkcyan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.header {
+  background-color: darkslateblue;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.about {
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.hobby ul {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+}
+
+.hobby li {
+  width: 33.3%;
+  text-align: center;
+}
+
+.hobby h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.hobby {
+  background-color: rgb(243, 242, 242);
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.poze ol {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+}
+
+.poze li {
+  width: 33.3%;
+  text-align: center;
+}
+
+.poze h2 {
+  text-align: center;
+  color: black;
+  padding-bottom: 30px;
+}
+
+.poze {
+  background-color: rgb(22, 112, 139);
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.contact ul {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+}
+
+.contact li {
+  width: 33.3%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact h2 {
+  text-align: center;
+  padding-bottom: 30px;
+  color: black;
+}
+
+.contact {
+  background-color: rgb(87, 103, 255);
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.projects {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.projects li {
+  font-size: 30px;
+}
+
+.projects h2 {
+  font-size: 40px;
+}
